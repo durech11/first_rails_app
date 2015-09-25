@@ -1,7 +1,7 @@
 == README
 
 Developed by Ekel Duran Echevarria.
-CareerFoundry Exercise 27
+CareerFoundry
 
 First Ruby on Rails App.
 
