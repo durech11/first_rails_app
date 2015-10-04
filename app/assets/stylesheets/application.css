@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+.logoType {
+	font-family: 'Pacifico', cursive;
+}
+
