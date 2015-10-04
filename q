@@ -1,0 +1,69 @@
+[33mcommit 7e57420dd1045b54f39053c6478d1f03693598eb[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Sun Oct 4 03:57:47 2015 -0700
+
+    added db/migrate/*add_color_to_products.rb
+
+[33mcommit 19bbc63b0e0e51acb44d1ac627657cec44384480[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Sun Oct 4 03:55:01 2015 -0700
+
+    added color column & local database migrations
+    added a color column manually by using the rails console
+    performed database migration
+    edited the views and controllers to add the color column
+
+[33mcommit 84ff1b3e106f332ef73e3bb7c34e65d7b5881ea4[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Mon Sep 28 22:57:01 2015 -0700
+
+    Edited the show.html.erb and index.html.erb in products
+    Added some styling and edited the image url to display the image.
+
+[33mcommit ea8ee072e4dfef1b2e6304ba8a49062cd647102f[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Mon Sep 28 21:11:31 2015 -0700
+
+    Started Scaffolding and DB Migration
+    Scaffolding started for the products.
+    applied rake db:migrate to add the products table to the database
+
+[33mcommit a397a7dda0664a5ef11aca1b41ce8ad7484a4aeb[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Thu Sep 24 22:20:54 2015 -0700
+
+    Configured Database Server
+    
+    edited the Gemfile and added group production for
+    rails_12factor and pg (postgreSQL)
+    edited the sqlite3 gem so that it belongs to the development
+    and test group
+    
+    edited the production.rb in /config/environments
+    to prepare for Heroku Deployment
+
+[33mcommit 3c725bab73f298b79c4ad36331eb40e94d4d6c7b[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Sun Sep 20 04:27:27 2015 -0700
+
+    Added h1,h2, and an image
+    
+    Additional changes includes linking bootstrap and jquery via CDN.
+
+[33mcommit 95393faaa3c216bda8edd63315cb596ec0917e32[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Sat Sep 19 04:19:12 2015 -0700
+
+    generated new pages in static_pages. added index, contact, and about. made the index display the current date in time
+
+[33mcommit 98f8758a135df2521bcf916c020b43a9fa5faa8b[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Tue Sep 15 21:53:27 2015 -0700
+
+    added intro to readme
+
+[33mcommit 92ba2f2a2c7cfdd2ff749125076c923049babd3b[m
+Author: durech1103 <durech11@gmail.com>
+Date:   Tue Sep 15 21:18:11 2015 -0700
+
+    first commit
