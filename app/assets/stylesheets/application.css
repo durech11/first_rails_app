@@ -13,16 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-
-
-.logoType {
-	font-family: 'Pacifico', cursive;
-	font-size: 4em;
-	color: red;
-}
-
-h1, h2, h3 {
-	font-family: 'Quicksand', sans-serif;
-}
-

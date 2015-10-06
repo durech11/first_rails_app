@@ -1,0 +1,18 @@
+.logoType {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	color: red;
+}
+
+h1, h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+}
+
+body {
+	padding-top: 60px;
+}
+
+.centerMargins {
+	margin: 0 auto;
+}
