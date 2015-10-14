@@ -1,7 +1,10 @@
 .logoType {
 	font-family: 'Pacifico', cursive;
-	font-size: 4em;
 	color: red;
+}
+
+.titleSize {
+	font-size: 4em;
 }
 
 h1, h2, h3, h4 {
