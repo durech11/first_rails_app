@@ -24,3 +24,12 @@ body {
 .btn-lrg {
 	margin-top: 20px;
 }
+
+.navbar-form {
+	margin-top: 13px;
+	float: right;
+}
+
+label {
+	color: white;
+}
