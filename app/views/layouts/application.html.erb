@@ -37,7 +37,14 @@
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/products">Products</a></li>
             <li><a href="/orders">Orders</a></li>
-            <li><%= link_to "Contact", contact_path %></li>            
+            <li><%= link_to "Contact", contact_path %></li>
+            <li>
+              <% if user_signed_in? %>
+                <%= link_to('Logout', destroy_user_session_path, :method=> :delete) %>
+              <% else %>
+                <%= link_to('Login', new_user_session_path) %>
+              <% end %>
+            </li>            
             
               <div class="navbar-form">
               <%= form_tag("/products", method: "get") do %>
