@@ -45,6 +45,10 @@
 
 	<%= render 'new_comment' %>
 	<%= render 'comments' %>
+	<%= will_paginate @comments %>	
+
+
+
 </div>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |

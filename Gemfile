@@ -53,3 +53,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise'
 
 gem 'cancancan'
+
+# will_paginate gem for pagination on comments
+gem 'will_paginate', '~> 3.0.6'
