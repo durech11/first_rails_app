@@ -15,6 +15,7 @@ end
 # Make sure to only use this in development and test
 group :development, :test do
 	gem 'sqlite3'
+	gem 'rspec-rails', '~> 3.0'
 end
 # Use SCSS for styles	heets
 gem 'sass-rails', '~> 4.0.3'
