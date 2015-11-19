@@ -41,3 +41,7 @@ label {
 #comment_body {
 	width: 100%;
 }
+
+form.button_to {
+	margin-top: 12px;
+}
