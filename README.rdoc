@@ -5,4 +5,4 @@ CareerFoundry
 
 First Ruby on Rails App.
 
-This is my first app for Ruby on rails. 
+This is my first app for Ruby on rails
