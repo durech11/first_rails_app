@@ -16,6 +16,7 @@ end
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails', '~> 3.0'
+	gem "factory_girl_rails", "~> 4.0"
 end
 # Use SCSS for styles	heets
 gem 'sass-rails', '~> 4.0.3'
@@ -57,3 +58,4 @@ gem 'cancancan'
 
 # will_paginate gem for pagination on comments
 gem 'will_paginate', '~> 3.0.6'
+
