@@ -63,3 +63,5 @@ gem 'cancancan'
 # will_paginate gem for pagination on comments
 gem 'will_paginate', '~> 3.0.6'
 
+# stripe - payment processing
+gem 'stripe'
