@@ -31,6 +31,7 @@ GEM
     bcrypt (3.1.10)
     bcrypt (3.1.10-x86-mingw32)
     builder (3.2.2)
+    byebug (8.0.1)
     cancancan (1.13.1)
     childprocess (0.5.8)
       ffi (~> 1.0, >= 1.0.11)
@@ -232,6 +233,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  byebug
   cancancan
   coffee-rails (~> 4.0.0)
   devise
