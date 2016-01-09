@@ -12,6 +12,7 @@ class ProductsController < ApplicationController
     else
     @products = Product.all
     end
+    logger.debug "Current products #{Product.all}"
   end
 
   # GET /products/1
@@ -26,6 +27,7 @@ class ProductsController < ApplicationController
   
   # GET /products/new
   def new
+    byebug
     @product = Product.new
   end
 
