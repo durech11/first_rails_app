@@ -21,7 +21,7 @@
 		<div class="col-md-3">
 		  <h3>Product Photo <span class="glyphicon glyphicon-picture"></span></h3>
 			<p>
-  				<%= image_tag(@product.image_url, class: "img-responsive") %>
+  				<%= image_tag(@product.image_url, class: "img-responsive img-zoom", data_zoom_image: @product.image_url) %>
 			</p>
 		</div>
 
