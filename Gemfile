@@ -69,3 +69,6 @@ gem 'stripe'
 
 # brakeman security
 gem "brakeman", :require => false
+
+# AngularJS
+gem 'angularjs-rails'
