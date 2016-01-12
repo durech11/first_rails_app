@@ -24,7 +24,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static_pages#about'
 
-  resources :orders, only: [:index, :show, :new, :create]
+  resources :orders, only: [:index, :show, :create, :destroy]
 
   post 'payments/create'
 
