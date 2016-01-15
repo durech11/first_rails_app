@@ -6,8 +6,9 @@
 		<div class="col-md-3">
 		<h3>Name:</h3>
 			<p>
+			<% cache @product do %>
 			<strong><%= @product.name %></strong>
-  				
+  			<% end %>	
 			</p>
 		</div>
 
